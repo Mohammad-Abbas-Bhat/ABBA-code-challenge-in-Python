@@ -1,15 +1,15 @@
 print('enter number')
-N= int(input())
-print("enter abab equal to {}".format(N))
-S=input()
-counter1=0
+N= int(input())   # recieve an integer input
+print("enter 'abab' or 'abba' etc equal to {}".format(N))
+S=input()                           # recieve a string
+counter1=0                             
 counter2=0
 i=0
 j=0
 k=0
 l=0
 
-list1=list(S)
+list1=list(S)                         # convert string to list for easy changes and sorting 
 #we will use two different lists and sort them
 #then change them different ways the one with min counter is answer  
 
